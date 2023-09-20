@@ -1,5 +1,53 @@
+body{
+    background: radial-gradient(#53668D, #939EB4);
+    font: 16px Arial, sans-serif;
+}
+
+#principal{
+    width: 900px;
+}
+
+#menu{
+    background: #CDD3D5;
+    padding: 2px;
+}
+
+#rodape{
+    width: 900px;
+    text-align: center;
+}
+
+#conteudo{
+    color: #fff;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+h1{
+    color: #2D384D;
+}
+
+header{
+    width: 900px;
+}
+
+header img{
+    width: 900px;
+    height: 77px;
+    object-fit: fill;
+}
+
+a{
+    color: #2D384D;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
 .images-container{
-    max-width: 920px;
+    max-width: 900px;
     height: 500px;
     margin: 32px auto;
     display: flex;
@@ -30,7 +78,7 @@
 }
 
 .images-container .description h2{
-    color: #8BF8B0;
+    color: #43C9DB;
 }
 
 .images-container .images:hover .description{
@@ -49,46 +97,21 @@
     border: 2px #222
 }
 
-
-
-body{
-    background: #53668D;
-    font: 16px Arial, sans-serif;
+ul li{
+    list-style: none;
+    display: inline-block;
 }
 
-#principal{
-    width: 900px;
-}
-
-#menu{
-    background: #CDD3D5;
-    padding: 18px;
-}
-
-#rodape{
-    width: 900px;
-    text-align: center;
-}
-
-#conteudo{
-    color: #fff;
-}
-
-.centralizar{
-    text-align: center;
-}
-
-h1{
-    color: #87DDE8;
-}
-
-header{
-    width: 900px;
-}
-
-a{
-    color: #2D384D;
+ul li a{
     text-decoration: none;
-    font-weight: bold;
-    padding: 5px;
+    color: #2D384D;
+    padding: 3px 12px;
+    background-color: #CDD3D5;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+ul li a:hover{
+    background-color: #CDD3D5;
+    color: #33C3D7;
 }
